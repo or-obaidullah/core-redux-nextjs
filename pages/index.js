@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 
 
@@ -10,7 +11,8 @@ export default function Home() {
       </Head>
       <main>
           <h1>Welcome To redux</h1>
-          <button><a href="/redux-counter">Counter</a></button>
+          <button><Link href="/redux-counter">Counter</Link></button>
+          <button><Link href="/todos-fetch-data">Fetch Data</Link></button>
       </main>
     </>
   )
